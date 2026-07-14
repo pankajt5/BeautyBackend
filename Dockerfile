@@ -6,7 +6,7 @@ WORKDIR /app/frontend
 
 # Copy dependencies first for layer caching
 COPY frontend/package*.json ./
-RUN npm ci
+RUN npm install
 
 # Copy configurations and source
 COPY frontend/tsconfig*.json ./
