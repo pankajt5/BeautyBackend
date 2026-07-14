@@ -1,0 +1,19 @@
+# Maven build artifacts
+**/target/
+**/data/*.db
+**/data/*.log
+
+# Node build artifacts
+**/node_modules/
+**/dist/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
